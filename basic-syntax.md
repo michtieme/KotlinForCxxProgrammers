@@ -2,7 +2,7 @@
 
 This is a collection of basic syntax for Kotlin with their equivalent in C++.
 
-YThe Kotlin essentials can be learned over at the [Kotlin Basics track](https://hyperskill.org/tracks/18)
+The Kotlin essentials can be learned over at the [Kotlin Basics track](https://hyperskill.org/tracks/18)
 on the JetBrains Academy.
 
 ## Semi Colons
