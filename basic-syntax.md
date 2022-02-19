@@ -1,6 +1,6 @@
 [//]: # (title: Basic syntax)
 
-This is a collection of basic syntax for Kotlin with their equivalent in C++.
+This is a collection of basic syntax essentials for Kotlin with their equivalent in C++.
 
 The Kotlin essentials can be learned over at the [Kotlin Basics track](https://hyperskill.org/tracks/18)
 on the JetBrains Academy.
