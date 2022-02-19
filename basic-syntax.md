@@ -36,3 +36,23 @@ int sum(int a, int b)
   return a + b;        //Semi-colon deliminting a statement
 }
 ```
+
+## Program entry point
+
+An entry point of a Kotlin application is the `main` function.
+
+```kotlin
+fun main() {
+    println("Hello world!")
+}
+```
+{kotlin-runnable="true" kotlin-min-compiler-version="1.3"}
+
+Another form of `main` accepts a variable number of `String` arguments. 
+
+```kotlin
+fun main(args: Array<String>) {
+    println(args.contentToString())
+}
+```
+{kotlin-runnable="true" kotlin-min-compiler-version="1.3"}
