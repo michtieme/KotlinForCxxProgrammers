@@ -27,3 +27,13 @@ C++ is a general-purpose programming language created by Bjarne Stroustrup as an
 
 C++ is standardised by the ISO with new revisions of the standard aiming to achieve a 3 year release cadence. The current standard is C++20. 
 
+## Qt
+Qt is a cross platform widget framework primarily aimed at the development of rich graphical user interfaces. Qt is pronounced 'cute') or it's initials "QT".
+
+The killer features of Qt are:
+1) Cross platform widget toolkit for C++
+2) Signals and Slots. A language construct allowing decoupled communication between objects
+   through the observer pattern
+3) Metaobject compiler (moc) - an interpretation of macros within annotated C++ code
+   to generate additional C++ code to extend the C++ language
+4) QML a declarative UI specification language for laying out graphical components
