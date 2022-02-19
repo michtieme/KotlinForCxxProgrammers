@@ -46,7 +46,6 @@ fun main() {
     println("Hello world!")
 }
 ```
-{kotlin-runnable="true" kotlin-min-compiler-version="1.3"}
 
 Another form of `main` accepts a variable number of `String` arguments. 
 
@@ -55,4 +54,26 @@ fun main(args: Array<String>) {
     println(args.contentToString())
 }
 ```
-{kotlin-runnable="true" kotlin-min-compiler-version="1.3"}
+
+The equivalent of these in C++ looks like this:
+
+```cpp
+#include  <iostream>
+int main()
+{
+	std::cout << "Hello World" << std::endl;
+	return 0; //In C++ main must return an 'int'. This is a quirk it inherited from 'C'
+}
+```
+
+and
+
+```#include  <iostream>
+int main(int argc, char* argv[])
+{
+    std::cout << "There are " << argc << " arguments:" << std::endl;
+    for (int i = 0; i < argc; ++i) {
+        std::cout << argv[i] << std::endl;
+    }
+}
+```
