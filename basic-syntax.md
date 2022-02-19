@@ -68,7 +68,8 @@ int main()
 
 and
 
-```#include  <iostream>
+```cpp
+#include  <iostream>
 int main(int argc, char* argv[])
 {
     std::cout << "There are " << argc << " arguments:" << std::endl;
