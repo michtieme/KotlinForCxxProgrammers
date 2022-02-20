@@ -40,3 +40,9 @@ The killer features of Qt are:
 
 ## Sections
 [Basic Syntax](basic-syntax.md)
+[Programming Concepts](programmingConcepts.md)
+[Functions](functions.md)
+[Classes](classes.md)
+[Data Structures](dataStructures.md)
+[Packages](packages.md)
+[Generics](generics.md)
