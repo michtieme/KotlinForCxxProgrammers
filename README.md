@@ -37,3 +37,6 @@ The killer features of Qt are:
 3) Metaobject compiler (moc) - an interpretation of macros within annotated C++ code
    to generate additional C++ code to extend the C++ language
 4) QML a declarative UI specification language for laying out graphical components
+
+## Sections
+[Basic Syntax](basic-syntax.md)
