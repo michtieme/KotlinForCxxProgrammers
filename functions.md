@@ -7,7 +7,6 @@
 ## C++ VS Kotlin // Passing parameters
 
 ### Parameters are immutable
-- [Ref](https://blog.jetbrains.com/kotlin/2013/02/kotlin-m5-1/)  
 - [Kt Example](https://godbolt.org/z/8PvacfzWe)
 - [C++ Example](https://godbolt.org/z/8qYq4Ysed)
 
@@ -30,6 +29,11 @@ fun main() {
 
 Output:
 `error: val cannot be reassignedkotlinc 1.6.10 #1`
+
+In Koltin since version M5, all the function parameters are immutable,
+trying to modify the parameters will create a compile time error:
+- [Ref](https://blog.jetbrains.com/kotlin/2013/02/kotlin-m5-1/)  
+
 
 C++:
 ```
